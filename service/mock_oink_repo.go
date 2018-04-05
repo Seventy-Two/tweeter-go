@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/mesosphere/tweeter-go/model"
+	"github.com/seventy-two/tweeter-go/model"
 
 	"sync"
 	"strconv"

@@ -1,4 +1,4 @@
-![Tweeter-Go](https://github.com/mesosphere/tweeter-go/raw/master/assets/images/tweeter-logo-banner.png)
+![Tweeter-Go](https://github.com/seventy-two/tweeter-go/raw/master/assets/images/tweeter-logo-banner.png)
 
 Example Go (golang) web app with dependency injection and graceful shutdown. Acts like a mini Twitter clone.
 
@@ -51,14 +51,14 @@ go run main.go
 Run in Docker:
 
 ```
-docker run -d --name tweeter -p 0.0.0.0:8080:8080 mesosphere/tweeter-go:latest
+docker run -d --name tweeter -p 0.0.0.0:8080:8080 seventy-two/tweeter-go:latest
 ```
 
 With Cassandra:
 
 ```
 docker run -d --name cassandra cassandra:2.2.3
-docker run -d --name tweeter --link cassandra:cassandra -p 0.0.0.0:8080:8080 mesosphere/tweeter-go:latest --cassandra-addr=cassandra
+docker run -d --name tweeter --link cassandra:cassandra -p 0.0.0.0:8080:8080 seventy-two/tweeter-go:latest --cassandra-addr=cassandra
 ```
 
 Find Tweeter IP:

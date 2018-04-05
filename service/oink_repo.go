@@ -1,6 +1,6 @@
 package service
 
-import "github.com/mesosphere/tweeter-go/model"
+import "github.com/seventy-two/tweeter-go/model"
 
 type TweetRepo interface {
 	Service

@@ -1,8 +1,8 @@
 package controller
 
 import (
-	"github.com/mesosphere/tweeter-go/service"
-	"github.com/mesosphere/tweeter-go/view"
+	"github.com/seventy-two/tweeter-go/service"
+	"github.com/seventy-two/tweeter-go/view"
 
 	"github.com/dustin/go-humanize"
 	log "github.com/Sirupsen/logrus"

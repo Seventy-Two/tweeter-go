@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/mesosphere/tweeter-go/controller"
-	"github.com/mesosphere/tweeter-go/service"
+	"github.com/seventy-two/tweeter-go/controller"
+	"github.com/seventy-two/tweeter-go/service"
 
 	"github.com/karlkfi/inject"
 	"github.com/gocql/gocql"

@@ -21,7 +21,7 @@ items:
       spec:
         containers:
         - name: server
-          image: mesosphere/tweeter-go:latest
+          image: seventy-two/tweeter-go:latest
           imagePullPolicy: Always
           command:
           - "tweeter"

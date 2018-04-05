@@ -1,7 +1,7 @@
 package view
 
 import (
-	"github.com/mesosphere/tweeter-go/model"
+	"github.com/seventy-two/tweeter-go/model"
 )
 
 type Index struct {

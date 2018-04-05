@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/mesosphere/tweeter-go",
+	"ImportPath": "github.com/seventy-two/tweeter-go",
 	"GoVersion": "go1.6.2",
 	"Deps": [
 		{

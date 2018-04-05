@@ -8,7 +8,7 @@
     "container": {
         "type": "DOCKER",
         "docker": {
-            "image": "mesosphere/tweeter-go:latest",
+            "image": "seventy-two/tweeter-go:latest",
             "forcePullImage": true,
             "network": "BRIDGE",
             "portMappings": [

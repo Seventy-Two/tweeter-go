@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/mesosphere/tweeter-go/model"
+	"github.com/seventy-two/tweeter-go/model"
 
 	"github.com/gocql/gocql"
 	"github.com/satori/go.uuid"
@@ -120,7 +120,8 @@ func (r *CQLTweetRepo) Create(o model.Tweet) (model.Tweet, error) {
 		return model.Tweet{}, errors.New("Uninitialized repo")
 	}
 
-	o.ID = uuid.NewV4().String()
+	id, _ := uuid.NewV4()
+	o.ID = id.String()
 	o.CreationTime = time.Now()
 
 	err := r.session.Query(
